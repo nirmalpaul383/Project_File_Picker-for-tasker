@@ -1,0 +1,950 @@
+<TaskerData sr="" dvi="1" tv="5.9.2">
+	<dmetric>720.0,1184.0</dmetric>
+	<Project sr="proj0" ve="2">
+		<cdate>1587908561864</cdate>
+		<name>File Picker</name>
+		<scenes>File Create Dialog,File Picker Tips,File Picker</scenes>
+		<tids>6,5,12,15,10,11,3,8,9,13,2,14</tids>
+		<Kid sr="Kid">
+			<launchID>2</launchID>
+			<pkg>n.paul.file.picker.ability</pkg>
+			<vTarg>21</vTarg>
+			<vnme>1.0.0 [By N Paul]</vnme>
+			<vnum>2</vnum>
+		</Kid>
+		<Img sr="icon" ve="2">
+			<nme>mw_file_folder_open</nme>
+			<tint>-16767745</tint>
+		</Img>
+	</Project>
+	<Scene sr="sceneFile Create Dialog">
+		<cdate>1587996459060</cdate>
+		<edate>1588001368389</edate>
+		<gridSize>10</gridSize>
+		<heightLand>-1</heightLand>
+		<heightPort>265</heightPort>
+		<nme>File Create Dialog</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>491</widthPort>
+		<RectElement sr="elements0">
+			<flags>4</flags>
+			<geom>0,0,490,58,0,0,490,83</geom>
+			<Str sr="arg0" ve="3">Rectangle1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF00FFC4</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>0,0,490,58,0,0,490,58</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Folder Creating Dialog</Str>
+			<Int sr="arg2" val="15"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<EditTextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>24,107,441,75,0,83,490,46</geom>
+			<Str sr="arg0" ve="3">TextEdit1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1000"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#FF819090</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="30"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<ButtonElement sr="elements3" ve="3">
+			<clickTask>8</clickTask>
+			<flags>4</flags>
+			<geom>270,181,220,84,270,156,220,108</geom>
+			<Str sr="arg0" ve="3">OK Button</Str>
+			<Str sr="arg1" ve="3">OK</Str>
+			<Int sr="arg2" val="15"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements4" ve="3">
+			<clickTask>9</clickTask>
+			<flags>4</flags>
+			<geom>0,181,216,84,0,156,216,108</geom>
+			<Str sr="arg0" ve="3">Cancel Button</Str>
+			<Str sr="arg1" ve="3">Cancel</Str>
+			<Int sr="arg2" val="15"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>0,58,490,49,0,58,490,49</geom>
+			<Str sr="arg0" ve="3">Text2</Str>
+			<Str sr="arg1" ve="3">Name of folder:</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">File Create Dialog</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneFile Picker">
+		<cdate>1587908578015</cdate>
+		<edate>1588087150370</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>1184</heightPort>
+		<nme>File Picker</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>720</widthPort>
+		<ListElement sr="elements0">
+			<flags>4</flags>
+			<geom>0,254,720,930,0,154,720,1030</geom>
+			<itemclickTask>3</itemclickTask>
+			<itemlongclickTask>5</itemlongclickTask>
+			<Str sr="arg0" ve="3">Menu1</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%List_of_Files_Folders</Str>
+			<Int sr="arg3" val="0"/>
+			<Scene sr="arg4">
+				<Scene sr="val">
+					<cdate>1587908713544</cdate>
+					<edate>1587908713544</edate>
+					<gridSize>10</gridSize>
+					<heightLand>111</heightLand>
+					<heightPort>111</heightPort>
+					<nme>Builtin Item Layout</nme>
+					<widthLand>720</widthLand>
+					<widthPort>720</widthPort>
+					<ImageElement sr="elements0" ve="2">
+						<flags>5</flags>
+						<geom>620,5,100,90,377,10,100,90</geom>
+						<Str sr="arg0" ve="3">Icon</Str>
+						<Img sr="arg1" ve="2">
+							<nme>mw_file_folder</nme>
+							<tint>-16711736</tint>
+						</Img>
+						<Int sr="arg2" val="255"/>
+					</ImageElement>
+					<TextElement sr="elements1" ve="3">
+						<flags>5</flags>
+						<geom>60,10,559,90,74,10,293,90</geom>
+						<Str sr="arg0" ve="3">Label</Str>
+						<Str sr="arg1" ve="3"/>
+						<Int sr="arg2" val="8"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FFFF0000</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="3"/>
+						<Int sr="arg7" val="1"/>
+						<Int sr="arg8" val="0"/>
+					</TextElement>
+					<TextElement sr="elements2" ve="3">
+						<flags>5</flags>
+						<geom>10,10,53,90,10,10,53,90</geom>
+						<Str sr="arg0" ve="3">Index</Str>
+						<Str sr="arg1" ve="3">1.</Str>
+						<Int sr="arg2" val="8"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FF5EFF00</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="0"/>
+						<Int sr="arg7" val="0"/>
+						<Int sr="arg8" val="0"/>
+					</TextElement>
+					<PropertiesElement sr="props">
+						<Int sr="arg0" val="1"/>
+						<Int sr="arg1" val="0"/>
+						<Str sr="arg2" ve="3">#00000000</Str>
+						<Int sr="arg3" val="0"/>
+						<Str sr="arg4" ve="3">Builtin Item Layout</Str>
+						<Str sr="arg5" ve="3"/>
+						<Img sr="arg6" ve="2"/>
+						<Str sr="arg7" ve="3"/>
+					</PropertiesElement>
+				</Scene>
+			</Scene>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ListElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>0,0,720,104,0,0,719,104</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0A00FF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<OvalElement sr="elements2">
+			<flags>4</flags>
+			<geom>560,1029,160,155,560,1029,159,155</geom>
+			<Str sr="arg0" ve="3">Oval1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF0080FF</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">#FF0000F8</Str>
+		</OvalElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>0,104,609,75,0,104,609,75</geom>
+			<Str sr="arg0" ve="3">Path Location</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="11"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements4" ve="3">
+			<clickTask>6</clickTask>
+			<flags>4</flags>
+			<geom>610,104,110,75,610,104,109,75</geom>
+			<longclickTask>15</longclickTask>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="22"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>mw_hardware_keyboard_backspace</nme>
+				<tint>-16767745</tint>
+			</Img>
+		</ButtonElement>
+		<TextElement sr="elements5" ve="3">
+			<clickTask>10</clickTask>
+			<flags>4</flags>
+			<geom>560,1029,160,150,560,1029,159,150</geom>
+			<Str sr="arg0" ve="3">Text3</Str>
+			<Str sr="arg1" ve="3">+</Str>
+			<Int sr="arg2" val="40"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements6" ve="3">
+			<clickTask>11</clickTask>
+			<flags>4</flags>
+			<geom>0,179,234,75,0,179,234,75</geom>
+			<Str sr="arg0" ve="3">Home Path Button</Str>
+			<Str sr="arg1" ve="3">...root folder...</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0021FF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements7" ve="3">
+			<clickTask>12</clickTask>
+			<flags>4</flags>
+			<geom>260,179,224,79,260,179,224,79</geom>
+			<Str sr="arg0" ve="3">Storage Path Button</Str>
+			<Str sr="arg1" ve="3">...Storage folder...</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0021FF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements8" ve="3">
+			<clickTask>13</clickTask>
+			<flags>4</flags>
+			<geom>510,179,210,79,510,179,209,79</geom>
+			<Str sr="arg0" ve="3">Mnt Path Button</Str>
+			<Str sr="arg1" ve="3">...mnt folder...</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0021FF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="1"/>
+			<Str sr="arg4" ve="3">File Picker</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<ListElementItem sr="item0">
+				<label>Close</label>
+				<Action sr="action" ve="7">
+					<code>49</code>
+					<Str sr="arg0" ve="3">File Picker</Str>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>Help</label>
+				<Action sr="action" ve="7">
+					<code>47</code>
+					<Str sr="arg0" ve="3">File Picker Tips</Str>
+					<Int sr="arg1" val="3"/>
+					<Int sr="arg2" val="100"/>
+					<Int sr="arg3" val="100"/>
+					<Int sr="arg4" val="6"/>
+					<Int sr="arg5" val="0"/>
+					<Int sr="arg6" val="1"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+			</ListElementItem>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneFile Picker Tips">
+		<cdate>1588084784021</cdate>
+		<edate>1588086403786</edate>
+		<gridSize>10</gridSize>
+		<heightLand>-1</heightLand>
+		<heightPort>454</heightPort>
+		<nme>File Picker Tips</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>497</widthPort>
+		<RectElement sr="elements0">
+			<flags>4</flags>
+			<geom>0,0,496,71,0,0,490,83</geom>
+			<Str sr="arg0" ve="3">Rectangle1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF00FFC4</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>2,71,493,69,2,71,493,78</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">(1) To select a 'folder' just 'hold' on that folder...</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0051FF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>0,139,493,68,0,158,493,98</geom>
+			<Str sr="arg0" ve="3">Text2</Str>
+			<Str sr="arg1" ve="3">(2) To select a 'file' just 'click' on that file...</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>2,284,493,78,2,274,493,107</geom>
+			<Str sr="arg0" ve="3">Text3</Str>
+			<Str sr="arg1" ve="3">(4) To create a new folder click on plus sign(+) and give a name...</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF1BFF00</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>0,381,494,73,0,381,494,73</geom>
+			<Str sr="arg0" ve="3">Text4</Str>
+			<Str sr="arg1" ve="3">File Picker By N Paul
+if you want to support me please like my facebook page https://www.facebook.com/a.new.way.technical</Str>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF4800FF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1"/>
+		</TextElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>108,0,251,52,108,0,232,52</geom>
+			<Str sr="arg0" ve="3">Text5</Str>
+			<Str sr="arg1" ve="3">Help</Str>
+			<Int sr="arg2" val="15"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0058FF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements6" ve="3">
+			<clickTask>14</clickTask>
+			<flags>4</flags>
+			<geom>417,0,79,62,417,0,79,62</geom>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="15"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>mw_navigation_close</nme>
+				<tint>-16767745</tint>
+			</Img>
+		</ButtonElement>
+		<TextElement sr="elements7" ve="3">
+			<flags>4</flags>
+			<geom>0,207,493,78,0,158,493,98</geom>
+			<Str sr="arg0" ve="3">Text6</Str>
+			<Str sr="arg1" ve="3">(3) Picked file or folder path is stored on 'File_Path_Picked' variable...</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFEC00FF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">File Picker Tips</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task10">
+		<cdate>1587997472580</cdate>
+		<edate>1587997472580</edate>
+		<id>10</id>
+		<pri>9</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">File Create Dialog</Str>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task11">
+		<cdate>1588084541266</cdate>
+		<edate>1588084541266</edate>
+		<id>11</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">/</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%List_of_Files_Folders</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">File Picker</Str>
+			<Str sr="arg1" ve="3">Path Location</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">/</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task12">
+		<cdate>1588084541266</cdate>
+		<edate>1588084541266</edate>
+		<id>12</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">/storage</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%List_of_Files_Folders</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">File Picker</Str>
+			<Str sr="arg1" ve="3">Path Location</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">/storage</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task13">
+		<cdate>1588084541266</cdate>
+		<edate>1588084541266</edate>
+		<id>13</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">/mnt</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%List_of_Files_Folders</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">File Picker</Str>
+			<Str sr="arg1" ve="3">Path Location</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">/mnt</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task14">
+		<cdate>1588085338487</cdate>
+		<edate>1588085338487</edate>
+		<id>14</id>
+		<pri>103</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">File Picker Tips</Str>
+		</Action>
+	</Task>
+	<Task sr="task15">
+		<cdate>1588085576950</cdate>
+		<edate>1588085576950</edate>
+		<id>15</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Back Button</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task2">
+		<cdate>1587908951231</cdate>
+		<edate>1588086322332</edate>
+		<id>2</id>
+		<nme>File Picker Launcher</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">/storage</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%List_of_Files_Folders</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">File Picker</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">File Picker</Str>
+			<Str sr="arg1" ve="3">Path Location</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">/storage</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_file_folder_open</nme>
+			<tint>-16767745</tint>
+		</Img>
+	</Task>
+	<Task sr="task3">
+		<cdate>1587909235835</cdate>
+		<edate>1587909235835</edate>
+		<id>3</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%file_or_folder_tap</Str>
+			<Str sr="arg1" ve="3">%tap_label</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>342</code>
+			<Int sr="arg0" val="4"/>
+			<Str sr="arg1" ve="3">%file_or_folder_tap</Str>
+			<Str sr="arg2" ve="3">%tap_data_type_test</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%tap_data_type_test</lhs>
+					<op>2</op>
+					<rhs>dir</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">%file_or_folder_tap</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%List_of_Files_Folders</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">File Picker</Str>
+			<Str sr="arg1" ve="3">Path Location</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%file_or_folder_tap</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%tap_data_type_test</lhs>
+					<op>2</op>
+					<rhs>file</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%File_Path_Picked</Str>
+			<Str sr="arg1" ve="3">%file_or_folder_tap</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">File path has been picked :-)</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">File Picker</Str>
+			<Str sr="arg1" ve="3">Text1</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">File path has been picked :-)
+"%File_Path_Picked"</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task5">
+		<cdate>1587990059360</cdate>
+		<edate>1587990059360</edate>
+		<id>5</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%file_or_folder_tap</Str>
+			<Str sr="arg1" ve="3">%tap_label</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>342</code>
+			<Int sr="arg0" val="4"/>
+			<Str sr="arg1" ve="3">%file_or_folder_tap</Str>
+			<Str sr="arg2" ve="3">%tap_data_type_test</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%tap_data_type_test</lhs>
+					<op>2</op>
+					<rhs>dir</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%File_Path_Picked</Str>
+			<Str sr="arg1" ve="3">%file_or_folder_tap</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Folder path has been picked :-)</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">File Picker</Str>
+			<Str sr="arg1" ve="3">Text1</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Folder path has been picked :-)
+"%File_Path_Picked"</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task6">
+		<cdate>1587990764274</cdate>
+		<edate>1587990764274</edate>
+		<id>6</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">File Picker</Str>
+			<Str sr="arg1" ve="3">Path Location</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%path_location</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>354</code>
+			<Str sr="arg0" ve="3">%path_array</Str>
+			<Str sr="arg1" ve="3">%path_location</Str>
+			<Str sr="arg2" ve="3">/</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%number_of_last_element</Str>
+			<Str sr="arg1" ve="3">%path_array(#&lt;)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>356</code>
+			<Str sr="arg0" ve="3">%path_array</Str>
+			<Int sr="arg1">
+				<var>%number_of_last_element</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%back_path</Str>
+			<Str sr="arg1" ve="3">%path_array(2:)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%back_path</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">/</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">/%back_path</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%List_of_Files_Folders</Str>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">File Picker</Str>
+			<Str sr="arg1" ve="3">Path Location</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">/%back_path</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task8">
+		<cdate>1587996846667</cdate>
+		<edate>1587996846667</edate>
+		<id>8</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">File Picker</Str>
+			<Str sr="arg1" ve="3">Path Location</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%current_path</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">File Create Dialog</Str>
+			<Str sr="arg1" ve="3">TextEdit1</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%create_folder_name</Str>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%create_folder_name</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%create_folder_name</lhs>
+					<op>2</op>
+					<rhs>*create_folder_name</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Folder name can not be empty...</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%create_folder_name</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>409</code>
+			<Str sr="arg0" ve="3">%current_path/%create_folder_name</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Folder Created</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">File Create Dialog</Str>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">%current_path</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%List_of_Files_Folders</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%create_folder_name</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task9">
+		<cdate>1587997437776</cdate>
+		<edate>1587997437776</edate>
+		<id>9</id>
+		<pri>11</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">File Create Dialog</Str>
+		</Action>
+	</Task>
+</TaskerData>
